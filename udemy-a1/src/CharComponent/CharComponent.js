@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
+import './CharComponent.css';
 
 class CharComponent extends Component {
-// TODO will implement this tomorrow :)
 	render(){
 		return (
-			<div className='char'>{this.props.char}</div>
+			<div className='Char' onClick={this.props.click}>{this.props.char}</div>
 		);
 	}
 }
